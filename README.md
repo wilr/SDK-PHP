@@ -15,8 +15,8 @@ This PHP SDK provides an easy method to integrate with the payment gateway.
 
 # Prerequisites
 - The SDK requires the following prerequisites to be met in order to function correctly:
-    - PHP5.6.*orlater.
-    - SSL **NB: HTTPS is expected to be in place as the payment gateway will respond over SSL when redirecting the user's browser. Failure to provide an environment where HTTPS traffic is possible, will result in the SDK failing***
+    - PHP 5.4+
+    - SSL **NB: HTTPS is expected to be in place when using direct integration as the payment gateway will respond over SSL. Failure to provide an environment where HTTPS traffic is possible, will result in the SDK failing***
 
 > Please note that we can only offer support for the SDK itself (gateway.php). While every effort has been made to ensure the sample code is complete and bug free, it is only a guide and cannot be used in a production environment.
 
