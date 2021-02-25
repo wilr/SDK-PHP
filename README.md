@@ -21,7 +21,7 @@ This PHP SDK provides an easy method to integrate with the payment gateway.
 > Please note that we can only offer support for the SDK itself (gateway.php). While every effort has been made to ensure the sample code is complete and bug free, it is only a guide and cannot be used in a production environment.
 
 # Using the Gateway SDK
-Inclue the source code and set the static fields Merchant ID and secret key.
+Include the source code and set the static fields Merchant ID and secret key.
 
 ```
 require('gateway.php');
@@ -30,7 +30,7 @@ Gateway::$merchantID = '100856';
 Gateway::$merchantSecret = 'Circle4Take40Idea';
 ```
 
-The other static public variables of the class can also be overriden if required, including support for HTTP proxying if required. Take a look at gateway.php to see the full method signatures. A request array that describes the transaction is then required. For example:
+The other static public variables of the class can also be overridden if required, including support for HTTP proxying if required. Take a look at gateway.php to see the full method signatures. A request array that describes the transaction is then required. For example:
 
 ```
     $req = array(
