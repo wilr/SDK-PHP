@@ -60,13 +60,13 @@ The other static public variables of the class can also be overridden if require
 Then, depending on the integration method, you'd either call:
 
 ```
-gateway.directRequest(reqFields)
+Gateway::directRequest(reqFields)
 ```
 
 OR
 
 ```
-gateway.hostedRequest(reqFields)
+Gateway::hostedRequest(reqFields)
 ```
 
 And then handle the response received from the gateway.
