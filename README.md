@@ -60,13 +60,13 @@ The other static public variables of the class can also be overridden if require
 Then, depending on the integration method, you'd either call:
 
 ```
-Gateway::directRequest($req)
+Gateway::directRequest($req);
 ```
 
 OR
 
 ```
-Gateway::hostedRequest($req)
+Gateway::hostedRequest($req);
 ```
 
 And then handle the response received from the gateway.
